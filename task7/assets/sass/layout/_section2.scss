@@ -1,0 +1,49 @@
+#hisse2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    min-height: 400px;
+
+    .cart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        max-width: 800px;
+        // gap: 10px;
+        color: white;
+
+        .title-h1{
+           h1{
+            font-size: 30px;
+            font-weight: 300;
+            line-height: 1.2;
+           }
+        }
+        hr{
+            width: 70px;
+            height: 4px;
+            background-color: white;
+         margin: 30px;
+     
+          
+        }
+        .paraqraf{
+            line-height: 1.5;
+            font-weight: 200;
+        }
+        .button{
+            button{
+                border-radius: 50px;
+                width: 180px;
+                height: 60px;
+                border: none;
+                margin: 30PX;
+                font-weight: 700;
+            }
+        }
+        }
+    }

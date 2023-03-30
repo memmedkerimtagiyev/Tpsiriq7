@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    .web-title{
+        h1{
+            text-decoration: none;
+            margin-left: 50px;
+            color: black;
+
+        }
+       
+    }
+    .link{
+        margin-right: 50px;
+        ul{
+            display: flex;
+            gap: 20px;
+            li{
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                    color: black;
+                  
+                }
+            }
+           
+        }
+    }
+    .icon{
+        display: none;
+    }
+}
+
