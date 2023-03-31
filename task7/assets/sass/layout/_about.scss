@@ -1,4 +1,4 @@
-#hisse2{
+#about {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,7 +6,7 @@
     background-color: orangered;
     min-height: 400px;
 
-    .cart{
+    .cart {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -15,35 +15,41 @@
         max-width: 800px;
         // gap: 10px;
         color: white;
+        padding: 0 30px;
 
-        .title-h1{
-           h1{
-            font-size: 30px;
-            font-weight: 300;
-            line-height: 1.2;
-           }
+        .title-h1 {
+            h1 {
+                font-size: 30px;
+                font-weight: 300;
+                line-height: 1.2;
+            }
         }
-        hr{
+
+        hr {
+            border: none;
             width: 70px;
             height: 4px;
             background-color: white;
-         margin: 30px;
-     
-          
+            margin: 30px;
+
+
         }
-        .paraqraf{
+
+        .paraqraf {
             line-height: 1.5;
             font-weight: 200;
         }
-        .button{
-            button{
+
+        .button {
+            button {
                 border-radius: 50px;
                 width: 180px;
                 height: 60px;
                 border: none;
                 margin: 30PX;
                 font-weight: 700;
+                cursor: pointer;
             }
         }
-        }
     }
+}

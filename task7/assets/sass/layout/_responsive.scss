@@ -1,4 +1,4 @@
-@media screen and (max-width:500px) {
+@media screen and (max-width:700px){
     nav{
         
         display: flex;
@@ -17,21 +17,18 @@
         padding: 10px 15px;
         border-radius: 10px;
     }
-    } 
+    }
 }
+@media screen and (max-width:700px) {
+    #services {
 
-// @media(max-width:1000px) {
-    
-//     main{
-//         .hisse1{
-//             .cart1{
-//                 margin: 0 50px;
-//                 .title-h1{
-//                     h1{
-                        
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
+        .cart{
+           
+            .carts{
+                display: flex;
+                flex-direction: row;
+
+            }
+        }
+    }
+}

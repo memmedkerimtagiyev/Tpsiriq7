@@ -1,4 +1,4 @@
-#hisse1 {
+#box1{
     background-image: url("https://picsum.photos/200/300");
     background-size: cover;
     // background-color: aqua;
@@ -43,10 +43,12 @@
                 background-color: orangered;
                 color: white;
                 font-size: 20px;
+                cursor: pointer;
             }
         }
 
         hr {
+            border: none;
             width: 60px;
             height: 5px;
             background-color: orangered;

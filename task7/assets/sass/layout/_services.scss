@@ -1,0 +1,59 @@
+#services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+
+    .cart {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      padding: 0 60px;
+
+
+        .title-h1 {
+            h1 {
+                font-size: 30px;
+                font-weight: 500;
+                line-height: 1.2;
+            }
+        }
+
+        hr {
+           border: none;
+            width: 60px;
+            height: 5px;
+            background-color: orangered;
+            margin-top: 30px;
+            margin-bottom: 70px;
+        }
+
+        .carts {
+            display: flex;
+            flex-direction: row;
+
+            .cartx {
+
+                margin: 0 10px;
+
+                i {
+                    color: orangered;
+                    font-size: 50px;
+
+                }
+
+                h2 {
+                    padding: 10px;
+                    font-weight: 400;
+                }
+
+                p {
+                    color: #6c757d;
+                }
+            }
+        }
+    }
+}
